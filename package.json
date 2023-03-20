@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-arXiv-link",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Obsidian plugin to replace arXiv links with formatted metadata (title, authors, etc.). It is based on [obsidian-auto-link-title](https://github.com/zolrath/obsidian-auto-link-title) for the paste/replace operation, on [obsidian-paper-import](https://github.com/zimmerrol/obsidian-paper-import) to fetch arXiv metadata and [paper-note-filler](https://github.com/chauff/paper-note-filler) for the template settings part.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
